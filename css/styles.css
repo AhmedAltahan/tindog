@@ -1,0 +1,151 @@
+body{
+  background-color: #F5F5F5;
+}
+#title{
+  background-color: #ff4c68;
+}
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+.container-fluid{
+  padding: 8%;
+}
+.col-lg-6 h1{
+  font-family: 'Montserrat', 'sans-serif';
+  line-height: 1.5;
+  font-size: 3rem;
+  /*font-weight: 900;*/
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+.mobile-img{
+  transform: rotate(25deg);
+  position: absolute;
+  width: 300px;
+
+}
+h1{
+  color: #fff;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+/* features section */
+#features{
+  background-color: #F5F5F5;
+  text-align: center;
+  /* padding: 100px 0; */
+  padding: 7% 15%;
+  position: relative;
+  /* z-index: 1; */
+}
+#features h3{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+}
+#features p{
+  color: #8f8f8f;
+}
+.item-color{
+  color: #ef8172;
+  margin-bottom: 25px;
+  font-size: 100px;
+  /* display: inline-block;
+  width: 20px;
+  height: 20px; */
+}
+#features i:hover{
+  color:#ff4c68;
+}
+/* .check p{
+  padding: 3%;
+} */
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  /* padding-bottom: 80px; */
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 7% 18%;
+}
+#press{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 2% 15%;
+}
+#pricing{
+  background-color: #F5F5F5;
+  padding: 100px;
+  text-align: center;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 150px 0;
+  font-family: 'Montserrat', 'sans-serif';
+  /* font-size: 30px; */
+  color: #fff;
+  margin: 0 120px;
+}
+#footer {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 90px 0 0 0;
+  font-size: 0.75rem;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 150px;
+}
+.logo{
+  width: 260px;
+  padding: 0 25px 25px 25px;
+}
+/* .container-topic{
+  padding: 7% 18%;
+} */
+.container-topic h2{
+  padding-bottom: 40px;
+}
+.carousel-item{
+  padding: 7% 18%;
+}
+.testimonial-image{
+  padding-right: 20px;
+}
+.col-pad {
+  padding: 2% 3%;
+}
+#footer p{
+  margin: 0;
+  padding-bottom: 2%;
+}
+@media (max-width:992px) {
+  .mobile-img{
+    position: static;
+    transform: rotate(0);
+    padding-top: 5%;
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta h3 {
+  font-size: 45px;
+  /* padding: 5px 70px 10px 70px;   */
+  /* margin-bottom: 300px; */
+
+}
+#cta .btn{
+  margin: 7% 1% 0 1%;
+}
+@media (max-width:992px) {
+  #cta {
+    margin: 0;
+  }
+  }
+#footer i{
+  padding: 0 1% 2% 1%;
+  font-size: 1.25rem;
+}
